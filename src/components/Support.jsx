@@ -7,19 +7,19 @@ import supportImage from '../assets/support.jpg'
 
 const Support = () => {
     return (
-        <div className='w-full h-screen mt-24'>
-            <div className='w-full h-[500px] bg-gray-900/90 absolute'>
+        <div className='w-full lg:h-screen mt-24'>
+            <div className='w-full h-[700px] md:h-[550px] bg-gray-900/90 absolute'>
                 <img className='w-full h-full object-cover mix-blend-overlay' src={supportImage} alt="support" />
             </div>
 
             <div className='max-w-[1240px] mx-auto text-white relative'>
-                <div className='px-6 py-12'>
+                <div className='px-4 py-12'>
                     <h2 className='text-3xl pt-8 text-slate-300 uppercase text-center'>SUPPORT</h2>
                     <h3 className='text-5xl font-bold py-6 text-center'>Finding the right team</h3>
                     <p className='py-4 text-3xl text-slate-300 text-center'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, fugiat blanditiis natus rem laboriosam, ipsum illum suscipit minus facere reiciendis repudiandae autem tenetur vel? Architecto assumenda eaque necessitatibus mollitia a.</p>
                 </div>
 
-                <div className='grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-6 py-12 sm:pt-20 text-black'>
+                <div className='grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-6 pt-12 sm:pt-20 text-black'>
                     <div className='bg-white rounded-xl shadow-2xl'>
                         <div className='p-8'>
                             <PhoneIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
